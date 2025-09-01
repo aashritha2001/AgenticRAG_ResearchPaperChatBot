@@ -1,5 +1,18 @@
 <h1>📚 Research Paper Assistant using Agentic RAG (Retrieval Augmented Generation) with LangChain and Supabase</h1>
 
+<h2>Project Description</h2>
+<p>This project is a research paper assistant that allows users to upload PDFs and chat with their contents using Retrieval Augmented Generation (RAG). By combining LangChain, OpenAI embeddings, and Supabase vector database, the system retrieves relevant information from the uploaded document and provides accurate responses in a chat interface. It demonstrates a practical use of AI-powered document understanding and agentic workflows.</p>
+
+<h2>Tools Used</h2>
+<ul>
+  <li><strong>Python 3.11+</strong> – programming language</li>
+  <li><strong>Streamlit</strong> – web app interface</li>
+  <li><strong>LangChain</strong> – for RAG-based retrieval and agent orchestration</li>
+  <li><strong>OpenAI (gpt-4o & embeddings)</strong> – LLM for question answering and vector embeddings</li>
+  <li><strong>Supabase</strong> – PostgreSQL + pgvector for vector storage and similarity search</li>
+  <li><strong>dotenv</strong> – for environment variable management</li>
+</ul>
+
 <h2>Prerequisites</h2>
 <ul>
   <li>Python 3.11+</li>
